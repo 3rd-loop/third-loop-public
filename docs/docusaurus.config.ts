@@ -47,7 +47,7 @@ const config: Config = {
       attributes: {
         name: "description",
         content:
-          "Third Loop — a platform that removes friction for engineering teams so they can focus on building great software.",
+          "Third Loop — AI-enabled tools for mechanical, electrical, and nuclear engineers. Let your engineers, engineer.",
       },
     },
     {
@@ -55,7 +55,7 @@ const config: Config = {
       attributes: {
         name: "keywords",
         content:
-          "Third Loop, developer tools, engineering platform, developer productivity, software engineering",
+          "Third Loop, AI engineering tools, mechanical engineering, electrical engineering, nuclear engineering, AI for engineers, engineering automation",
       },
     },
     {
@@ -77,7 +77,7 @@ const config: Config = {
       attributes: {
         property: "og:description",
         content:
-          "A platform that removes friction for engineering teams so they can focus on building great software.",
+          "AI-enabled tools for mechanical, electrical, and nuclear engineers. Augment your workflow with purpose-built AI.",
       },
     },
     {
@@ -106,7 +106,7 @@ const config: Config = {
       attributes: {
         name: "twitter:description",
         content:
-          "A platform that removes friction for engineering teams so they can focus on building great software.",
+          "AI-enabled tools for mechanical, electrical, and nuclear engineers. Augment your workflow with purpose-built AI.",
       },
     },
   ],
@@ -160,9 +160,7 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
-    metadata: [
-      { name: "robots", content: "index, follow" },
-    ],
+    metadata: [{ name: "robots", content: "index, follow" }],
     navbar: {
       title: "Third Loop",
       logo: {
