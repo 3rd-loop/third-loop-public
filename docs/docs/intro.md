@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Documentation Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to **Third Loop** — let your engineers, engineer.
+
+## What is Third Loop?
+
+Third Loop is a platform built to remove the friction that slows engineering teams down. Instead of spending time on repetitive tasks, context switching, and operational overhead, Third Loop lets your team focus on what they do best: building great software.
+
+## Why Third Loop?
+
+Modern engineering teams face growing complexity — more tools, more processes, and more coordination overhead. Third Loop closes the gap between how engineers want to work and how they're forced to work by streamlining workflows and reducing toil.
+
+- **Less overhead, more output** — Minimize the operational burden so engineers can stay in flow.
+- **Built for engineering teams** — Designed around real developer workflows, not against them.
+- **Simple to adopt** — Get up and running quickly without overhauling your existing stack.
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+New to Third Loop? Head over to the [Getting Started](./tutorial-getting-started/create-a-page) guide to set up your environment and explore the basics.

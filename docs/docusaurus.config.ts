@@ -41,8 +41,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl:
-            "https://github.com/3rd-loop/third-loop-public/tree/main/docs/",
         },
         blog: {
           showReadingTime: true,
@@ -50,8 +48,6 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl:
-            "https://github.com/3rd-loop/third-loop-public/tree/main/docs/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
