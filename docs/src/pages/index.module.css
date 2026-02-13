@@ -1,23 +1,39 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+.splash {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: calc(100vh - 60px);
+  text-align: center;
+  padding: var(--tl-spacing-lg);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: var(--tl-font-weight-bold);
+  margin-bottom: var(--tl-spacing-sm);
+}
+
+.tagline {
+  font-size: var(--tl-font-size-lg);
+  color: var(--tl-color-text-secondary);
+  margin-bottom: var(--tl-spacing-xl);
+}
+
+.cta {
+  display: inline-block;
+  padding: var(--tl-spacing-sm) var(--tl-spacing-xl);
+  font-size: var(--tl-font-size-md);
+  font-weight: var(--tl-font-weight-semibold);
+  color: var(--tl-color-bg-primary);
+  background-color: var(--tl-color-accent);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: opacity var(--tl-animation-fast);
+}
+
+.cta:hover {
+  opacity: 0.85;
+  color: var(--tl-color-bg-primary);
+  text-decoration: none;
 }
