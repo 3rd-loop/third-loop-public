@@ -24,6 +24,22 @@ pnpm build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+## Serve
+
+```bash
+pnpm serve
+```
+
+This command serves the production build locally for previewing before deployment.
+
+## Build & Serve
+
+```bash
+pnpm serve:build
+```
+
+This command builds the site and serves it locally in one step.
+
 ## Deployment
 
 Using SSH:
