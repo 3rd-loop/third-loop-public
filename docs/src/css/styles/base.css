@@ -1,0 +1,39 @@
+:root {
+  font-synthesis: weight style;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global scrollbar styles */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-accent) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+::selection {
+  background: var(--primary-accent);
+  color: var(--text-white);
+}
+
+.emphasis {
+  font-style: italic;
+}

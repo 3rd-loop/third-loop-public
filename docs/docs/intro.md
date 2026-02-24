@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to **Third Loop** — let your engineers, engineer.
+
+## What is Third Loop?
+
+Third Loop builds AI-enabled tools for traditional engineering disciplines — mechanical, electrical, nuclear, and beyond. We bring the power of modern AI to the engineers who design, analyze, and build the physical world.
+
+## Why Third Loop?
+
+Engineering fields like mechanical, electrical, and nuclear have long relied on complex, manual workflows — calculations by hand, siloed design tools, and time-intensive review processes. While software engineering has embraced AI-assisted tooling, traditional engineering disciplines have been largely left behind.
+
+Third Loop closes that gap. Our tools augment engineers with AI so they can spend less time on tedious busywork and more time solving the problems that matter.
+
+- **AI for traditional engineering** — Purpose-built tools for mechanical, electrical, and nuclear engineers, not repurposed software dev tools.
+- **Augment, don't replace** — AI handles the repetitive work so engineers can focus on design, analysis, and decision-making.
+- **Fits your workflow** — Integrates with the tools and processes engineering teams already use.
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+New to Third Loop? Head over to the [Getting Started](./tutorial-getting-started/create-a-page) guide to set up your environment and explore the basics.

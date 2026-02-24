@@ -1,13 +1,13 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: "Third Loop",
+  tagline: "Let your engineers, engineer",
+  favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -15,130 +15,213 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: "https://thirdloop.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: "3rd-loop", // Usually your GitHub org/user name.
+  projectName: "third-loop-public", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: "throw",
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "throw",
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
+
+  headTags: [
+    {
+      tagName: "meta",
+      attributes: {
+        name: "description",
+        content:
+          "Third Loop — AI-enabled tools for mechanical, electrical, and nuclear engineers. Let your engineers, engineer.",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "keywords",
+        content:
+          "Third Loop, AI engineering tools, mechanical engineering, electrical engineering, nuclear engineering, AI for engineers, engineering automation",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:type",
+        content: "website",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:title",
+        content: "Third Loop — Let your engineers, engineer",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:description",
+        content:
+          "AI-enabled tools for mechanical, electrical, and nuclear engineers. Augment your workflow with purpose-built AI.",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:url",
+        content: "https://thirdloop.dev",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "twitter:title",
+        content: "Third Loop — Let your engineers, engineer",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "twitter:description",
+        content:
+          "AI-enabled tools for mechanical, electrical, and nuclear engineers. Augment your workflow with purpose-built AI.",
+      },
+    },
+  ],
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: "./sidebars.ts",
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          blogSidebarCount: "ALL",
           // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
+        },
+        sitemap: {
+          lastmod: "date",
+          changefreq: "weekly",
+          priority: 0.5,
         },
       } satisfies Preset.Options,
     ],
   ],
 
+  themes: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      {
+        hashed: true,
+        language: ["en"],
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
+
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    metadata: [{ name: "robots", content: "index, follow" }],
     navbar: {
-      title: 'My Site',
+      title: "Third Loop",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "Third Loop Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          type: "docSidebar",
+          sidebarId: "documentationSidebar",
+          position: "left",
+          label: "Documentation",
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: "/blog", label: "Blog", position: "left" },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/3rd-loop",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: "Documentation",
+              to: "/docs/intro",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "LinkedIn",
+              href: "https://linkedin.com/thirdloop",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: "X",
+              href: "https://x.com/thirdloop",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: "Blog",
+              to: "/blog",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "GitHub",
+              href: "https://github.com/3rd-loop",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Third Loop`,
     },
     prism: {
       theme: prismThemes.github,
