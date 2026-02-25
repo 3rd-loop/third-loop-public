@@ -1,19 +1,44 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+AI:
+  label: AI
+  permalink: /ai
+  description: Perspectives on large language models, AI tooling, and how AI is changing technical work.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+Engineering:
+  label: Engineering
+  permalink: /engineering
+  description: Tools, workflows, and practices for engineers solving complex technical problems.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+Consulting:
+  label: Consulting
+  permalink: /consulting
+  description: Insights on consulting delivery, client work, and how professional services firms operate.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+Technical:
+  label: Technical
+  permalink: /technical
+  description: Deep dives into technical concepts, architecture, and implementation details.
+
+Problem Solving:
+  label: Problem Solving
+  permalink: /problem-solving
+  description: Frameworks and approaches for tackling hard, ambiguous problems.
+
+State of the Industry:
+  label: State of the Industry
+  permalink: /state-of-the-industry
+  description: Analysis of trends, shifts, and where engineering and consulting are headed.
+
+Third Loop:
+  label: Third Loop
+  permalink: /third-loop
+  description: News, thinking, and updates from the Third Loop team.
+
+If I Were CEO:
+  label: If I Were CEO
+  permalink: /if-i-were-ceo
+  description: Opinions on how companies should think about technology, operations, and strategy.
+
+Announcements:
+  label: Announcements
+  permalink: /announcements
+  description: Product launches, partnerships, and company news.

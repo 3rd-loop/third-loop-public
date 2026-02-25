@@ -1,25 +1,18 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+mason:
+  name: Mason Lavinder
+  title: Founder @ Third Loop, Head of Operations
+  url: https://www.linkedin.com/in/mason-lavinder
+  image_url: /img/mason.jpeg
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    linkedin: mason-lavinder
+    github: masonlavinder
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+alex:
+  name: Alex Schell
+  title: Founder @ Third Loop, Head of Engineering
+  url: https://www.linkedin.com/in/christian-schell-535651112
+  image_url: /img/alex.jpeg
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    linkedin: christian-schell-535651112
