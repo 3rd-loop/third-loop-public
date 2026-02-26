@@ -144,6 +144,17 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      "posthog-docusaurus",
+      {
+        apiKey: "phc_d1xyGP60riNzzPKWqYstKxpZbT1yExOWZZMW7F8ULYd",
+        appUrl: "https://us.i.posthog.com",
+        enableInDevelopment: true,
+      },
+    ],
+  ],
+
   themes: [
     [
       "@easyops-cn/docusaurus-search-local",
