@@ -17,3 +17,5 @@ Provide your email and if it makes sense, feel free to attach a screenshot.
 The Third Loop team will try to solve your problem as soon as possible. They may reach out to you to get feedback or just ask about the issue you were having.
 
 Problem reporting is critical to making Clove a better tool for Third Loop and you, our users. Please don't be shy.
+
+Also, feel free to reach out to support@3rd-loop.com
