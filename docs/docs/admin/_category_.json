@@ -1,0 +1,8 @@
+{
+  "label": "Administration",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Intro to using Third Loop's Admin Tools."
+  }
+}
