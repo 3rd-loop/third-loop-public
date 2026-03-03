@@ -22,4 +22,4 @@ Third Loop closes that gap. Our tools augment engineers with AI so they can spen
 
 ## Getting Started
 
-New to Third Loop? Head over to the [Getting Started](./tutorial-getting-started/create-a-page) guide to set up your environment and explore the basics.
+New to Third Loop? Head over to the [Getting Started](./clove/getting-started) guide to set up your environment and explore the basics.
