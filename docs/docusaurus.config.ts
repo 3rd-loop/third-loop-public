@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://thirdloop.dev",
+  url: "https://docs.3rd-loop.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -141,6 +141,17 @@ const config: Config = {
           priority: 0.5,
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    [
+      "posthog-docusaurus",
+      {
+        apiKey: "phc_d1xyGP60riNzzPKWqYstKxpZbT1yExOWZZMW7F8ULYd",
+        appUrl: "https://us.i.posthog.com",
+        enableInDevelopment: true,
+      },
     ],
   ],
 

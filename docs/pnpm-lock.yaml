@@ -29,6 +29,9 @@ importers:
       docusaurus-theme-openapi-docs:
         specifier: ^4.7.1
         version: 4.7.1(@docusaurus/theme-common@3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.6.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.14)(docusaurus-plugin-openapi-docs@4.7.1(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.6.3))(@docusaurus/utils-validation@3.9.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@docusaurus/utils@3.9.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4))(docusaurus-plugin-sass@0.2.6(@docusaurus/core@3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.14)(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.6.3))(sass@1.97.3)(webpack@5.105.2))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(redux@5.0.1)(webpack@5.105.2)
+      posthog-docusaurus:
+        specifier: ^2.0.5
+        version: 2.0.5
       prism-react-renderer:
         specifier: ^2.3.0
         version: 2.4.1(react@19.2.4)
@@ -4758,6 +4761,10 @@ packages:
   postcss@8.5.6:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
+
+  posthog-docusaurus@2.0.5:
+    resolution: {integrity: sha512-Ray65LYEJrMMqDtsBUBXunEVP/g4wtATvq/xz9rchUoLy/9mSkkFgUko/8DVtGxgiP3vivpFMgfb9HpCuDrBHg==}
+    engines: {node: '>=10.15.1'}
 
   postman-code-generators@2.1.0:
     resolution: {integrity: sha512-PCptfRoq6pyyqeB9qw87MfjpIZEZIykIna7Api9euhYftyrad/kCkIyXfWF6GrkcHv0nYid05xoRPWPX9JHkZg==}
@@ -12083,6 +12090,8 @@ snapshots:
       nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
+
+  posthog-docusaurus@2.0.5: {}
 
   postman-code-generators@2.1.0:
     dependencies:
