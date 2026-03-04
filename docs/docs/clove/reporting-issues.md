@@ -1,21 +1,31 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Reporting Issues
 
 Clove is not perfect and there can be bugs and issues. Or maybe you have a great idea and want the team at Third Loop to hear about it.
 
-Start by hitting your profile on the bottom left of the sidebar and selecting "Report Poblem".
+## How to Report
 
-You can select the problem type from Bug, Feature Request, Performance Issue, Accessibility Issue, or Other if those categories don't fit.
+1. Click your profile at the bottom left of the sidebar.
+2. Select **Report Problem**.
+3. Choose a problem type:
+   - **Bug** — Something is broken or not working as expected.
+   - **Feature Request** — An idea for something new.
+   - **Performance Issue** — Clove is slow or unresponsive.
+   - **Accessibility Issue** — Something is difficult to use or inaccessible.
+   - **Other** — If none of the above fit.
+4. Describe the problem in detail. The more specific you are, the faster the team can help. Include what you were doing, what you expected to happen, and what actually happened.
+5. Provide your email so the team can follow up.
+6. Attach a screenshot if it helps illustrate the issue.
 
-Then describe your problem in detail. Descriptions like "it no work" does not help us solve your problem.
+## What Happens Next
 
-Provide your email and if it makes sense, feel free to attach a screenshot.
+The Third Loop team will review your report and work to resolve it as soon as possible. They may reach out to you for additional details or feedback.
 
-The Third Loop team will try to solve your problem as soon as possible. They may reach out to you to get feedback or just ask about the issue you were having.
+## Contact
 
-Problem reporting is critical to making Clove a better tool for Third Loop and you, our users. Please don't be shy.
+You can also reach support directly at **support@3rd-loop.com**.
 
-Also, feel free to reach out to support@3rd-loop.com
+Problem reporting is critical to making Clove better for everyone. Please don't be shy.
