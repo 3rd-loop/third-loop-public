@@ -1,31 +1,18 @@
-# third-loop-public
-Official public repository for Third Loop - company information, documentation, and open resources
+# Third Loop — Public Docs
 
-## Documentation Site
+The official public documentation site for [Third Loop](https://thirdloop.io). Built with [Docusaurus](https://docusaurus.io/).
 
-The `docs/` directory contains a [Docusaurus](https://docusaurus.io/) site.
+> This repository is public. Anyone can read it, but only Third Loop team members can contribute.
 
-### Getting Started
+---
 
-```bash
-cd docs
-pnpm install
-```
+## Contributing
 
-### Scripts
-
-| Command | Description |
-|---------|-------------|
-| `pnpm start` | Start the development server with hot reload |
-| `pnpm run build` | Build the static site for production |
-| `pnpm run serve` | Serve the production build locally |
-| `pnpm run serve:build` | Build and serve in one step |
-
-## How to Contribute
+This repo is maintained exclusively by the Third Loop team. External pull requests will not be accepted.
 
 ### Adding Documentation
 
-Create a new `.md` file in `docs/docs/` (or a subdirectory). Add frontmatter at the top:
+Create a `.md` file in `docs/docs/` (or a subdirectory). Add frontmatter at the top:
 
 ```md
 ---
@@ -34,10 +21,10 @@ sidebar_position: 1
 
 # Your Page Title
 
-Your content here...
+Content here...
 ```
 
-Files are organized by folder. To add a page to an existing section, place it in the appropriate subdirectory (e.g. `docs/docs/tutorial-getting-started/`). To create a new section, add a new folder with a `_category_.json`:
+To add a page to an existing section, place it in the appropriate subdirectory. To create a new section, add a folder with a `_category_.json`:
 
 ```json
 {
@@ -48,7 +35,7 @@ Files are organized by folder. To add a page to an existing section, place it in
 
 ### Adding Blog Posts
 
-Create a new `.md` file in `docs/blog/` using the naming convention `YYYY-MM-DD-your-slug.md`:
+Create a `.md` file in `docs/blog/` using the naming convention `YYYY-MM-DD-your-slug.md`:
 
 ```md
 ---
@@ -65,6 +52,18 @@ Introduction paragraph shown in the blog list.
 Full content here...
 ```
 
-For posts with images, create a folder instead (e.g. `docs/blog/2025-01-15-my-post/`) containing an `index.md` and any image assets.
+For posts with images, create a folder (e.g. `docs/blog/2025-01-15-my-post/`) containing an `index.md` and any image assets.
 
 Authors are defined in `docs/blog/authors.yml`. Add your entry there before referencing it in a post.
+
+---
+
+## Local Development
+
+```bash
+cd docs
+pnpm install
+pnpm start        # dev server with hot reload
+pnpm run build    # production build
+pnpm run serve    # serve the production build locally
+```

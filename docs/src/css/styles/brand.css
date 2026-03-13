@@ -1,0 +1,58 @@
+:root {
+  /* Brand scale (violet) - lightest to darkest */
+  --brand-25: #f3f2fd;
+  --brand-50: #efeefc;
+  --brand-100: #e3e1fa;
+  --brand-150: #d0ccff;
+  --brand-200: #c2bdff;
+  --brand-300: #aba3ff;
+  --brand-400: #8f85ff;
+  --brand-500: #776bff;
+  --brand-600: #5c4dff;
+  --brand-700: #3a2fbb;
+  --brand-800: #1a1461;
+  --brand-950: #130e47;
+
+  /* Brand transparent utilities (based on --brand-600 / #5C4DFF) */
+  --brand-alpha-5: rgba(92, 77, 255, 0.05);
+  --brand-alpha-10: rgba(92, 77, 255, 0.1);
+  --brand-alpha-15: rgba(92, 77, 255, 0.15);
+  --brand-alpha-20: rgba(92, 77, 255, 0.2);
+  --brand-alpha-30: rgba(92, 77, 255, 0.3);
+  --brand-alpha-50: rgba(92, 77, 255, 0.5);
+
+  /* Gray scale - lightest to darkest */
+  --gray-25: #f6f7f9;
+  --gray-50: #e8e8f3;
+  --gray-100: #d8d8eb;
+  --gray-150: #c1c1da;
+  --gray-200: #b2b2cc;
+  --gray-300: #9595af;
+  --gray-400: #71718e;
+  --gray-500: #40405f;
+  --gray-600: #141433;
+  --gray-700: #1a1a2e;
+  --gray-800: #101028;
+  --gray-950: #080814;
+
+  /* Success scale */
+  --success-100: #d4f2df;
+  --success-300: #6feb9d;
+  --success-500: #1dd360;
+  --success-700: #117937;
+
+  /* Warning scale */
+  --warning-100: #f6e7d5;
+  --warning-300: #fbbc74;
+  --warning-500: #f98f15;
+  --warning-700: #a45904;
+
+  /* Error scale */
+  --error-100: #f4dcdc;
+  --error-300: #ed9191;
+  --error-500: #e24b4b;
+  --error-700: #a71b1b;
+
+  /* Brand gradient */
+  --brand-gradient: linear-gradient(135deg, #5c4dff, #2c2577);
+}

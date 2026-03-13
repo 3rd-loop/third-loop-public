@@ -21,12 +21,12 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
+  background: #c1c1da;
   border-radius: 4px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8;
+  background: #9595af;
 }
 
 ::selection {
