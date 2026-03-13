@@ -5,35 +5,35 @@
   justify-content: center;
   min-height: calc(100vh - 60px);
   text-align: center;
-  padding: var(--tl-spacing-lg);
+  padding: var(--spacing-lg);
 }
 
 .title {
   font-size: 3rem;
-  font-weight: var(--tl-font-weight-bold);
-  margin-bottom: var(--tl-spacing-sm);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-sm);
 }
 
 .tagline {
-  font-size: var(--tl-font-size-lg);
-  color: var(--tl-color-text-secondary);
-  margin-bottom: var(--tl-spacing-xl);
+  font-size: var(--font-lg);
+  color: var(--text-grey);
+  margin-bottom: var(--spacing-xl);
 }
 
 .cta {
   display: inline-block;
-  padding: var(--tl-spacing-sm) var(--tl-spacing-xl);
-  font-size: var(--tl-font-size-md);
-  font-weight: var(--tl-font-weight-semibold);
-  color: var(--tl-color-bg-primary);
-  background-color: var(--tl-color-accent);
+  padding: var(--spacing-sm) var(--spacing-xl);
+  font-size: var(--font-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--background-white);
+  background-color: var(--primary-accent);
   border-radius: 6px;
   text-decoration: none;
-  transition: opacity var(--tl-animation-fast);
+  transition: opacity var(--speed-fast);
 }
 
 .cta:hover {
   opacity: 0.85;
-  color: var(--tl-color-bg-primary);
+  color: var(--background-white);
   text-decoration: none;
 }

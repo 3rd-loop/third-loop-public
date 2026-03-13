@@ -1,24 +1,24 @@
-/* montserrat-400 - latin */
+/* geist-400 - latin */
 @font-face {
   font-display: block;
-  font-family: "Montserrat";
+  font-family: "Geist";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/Montserrat-Regular.woff2") format("woff2");
+  src: url("/fonts/Geist-Regular.ttf") format("truetype");
 }
-/* montserrat-500 - latin */
+/* geist-500 - latin */
 @font-face {
   font-display: block;
-  font-family: "Montserrat";
+  font-family: "Geist";
   font-style: normal;
   font-weight: 500;
-  src: url("/fonts/Montserrat-Medium.woff2") format("woff2");
+  src: url("/fonts/Geist-Medium.ttf") format("truetype");
 }
-/* montserrat-700 - latin */
+/* geist-700 - latin */
 @font-face {
   font-display: block;
-  font-family: "Montserrat";
+  font-family: "Geist";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/Montserrat-Bold.woff2") format("woff2");
+  src: url("/fonts/Geist-Bold.ttf") format("truetype");
 }
