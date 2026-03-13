@@ -8,13 +8,17 @@ Workflows are a way to make your work repeatable. They turn processes that you o
 
 ## Creating a Workflow
 
-1. Click the **Workflows** button in your sidebar.
-2. Click **New** to start a new workflow.
-3. Describe the process you are trying to achieve in plain language.
-4. Clove will generate a structured set of steps based on your description.
-5. Review the steps and adjust them as needed.
+Click the **Workflows** button in your sidebar, then click **New**. You have two ways to create a workflow:
 
-Clove takes its best guess at the process and breaks it down into steps, but you are in control — you can edit, add, remove, or reorder steps to match your actual process.
+### From a prompt
+
+Describe the process you want to capture in plain language. Clove will generate a structured set of steps based on your description. Review the steps and adjust them as needed — Clove takes its best guess, but you are always in control. You can edit, add, remove, or reorder steps to match your actual process.
+
+### From scratch
+
+Start with a blank workflow and build it yourself without any AI generation. This is useful if you already know exactly what steps you need and want full manual control from the start.
+
+> If you open a blank workflow and leave without making any changes, it is automatically discarded — nothing is saved.
 
 ## Workflow Steps
 
@@ -27,25 +31,24 @@ Each workflow is made up of steps. A step can include:
 
 ## Editing and Refining
 
-After Clove generates a workflow, you can refine it:
+After a workflow is created, you can refine it at any time:
 
 - Edit individual steps and their content.
 - Update answers to clarifying questions.
 - Add or remove context items for specific steps.
-- Continue refining by sending additional instructions to Clove.
+- Send additional instructions to Clove to refine the workflow further.
 
-Every time you refine a workflow, Clove creates a new version. You can view previous versions if needed.
+Every time you refine a workflow, Clove creates a new version. You can return to previous versions if needed.
 
-## Using a Workflow
+## Running a Workflow (Step-Through Mode)
 
-Once a workflow is set up, you can fill it out in a chat. Walk through the steps, answer the questions, and attach any required documents. The workflow guides you through the process consistently every time.
+When you run a workflow, Clove enters **step-through mode** — working through each step one at a time rather than all at once. After each step you can:
 
-This is especially useful for:
+- **Continue** to move on to the next step.
+- **Redo** the step and send feedback to Clove if the output needs adjustment.
+- **Cancel** to exit step-through mode at any point.
 
-- **Change management** — Making sure every change follows the same approval process.
-- **Consistency** — Ensuring nothing gets missed when repeating a process.
-- **Onboarding** — Walking new team members through established procedures.
-- **Compliance** — Documenting that the right steps were followed.
+This gives you consistent, reviewable execution — every step is visible and correctable before moving forward.
 
 ## Managing Workflows
 
@@ -54,6 +57,5 @@ From the Workflows page you can:
 - **Browse** all your created workflows.
 - **Search** for workflows by name.
 - **Edit** an existing workflow to refine its steps.
-- **View versions** to see how a workflow has changed over time.
 
 For workflow ideas, see [Workflow Ideas](/docs/clove/ideas/workflow-ideas).
