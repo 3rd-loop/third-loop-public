@@ -237,7 +237,7 @@ const config: Config = {
           items: [
             {
               label: "LinkedIn",
-              href: "https://linkedin.com/thirdloop",
+              href: "https://www.linkedin.com/company/3rd-loop/about",
             },
             {
               label: "X",
