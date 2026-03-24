@@ -84,7 +84,7 @@ const config: Config = {
       tagName: "meta",
       attributes: {
         property: "og:url",
-        content: "https://thirdloop.dev",
+        content: "https://thirdloop.ai",
       },
     },
     {
@@ -109,6 +109,32 @@ const config: Config = {
           "AI-enabled tools for mechanical, electrical, and nuclear engineers. Augment your workflow with purpose-built AI.",
       },
     },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/img/apple-touch-icon.png",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/img/favicon-32x32.png",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: "/img/favicon-16x16.png",
+      },
+    },
   ],
 
   presets: [
@@ -117,8 +143,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          routeBasePath: "/",
         },
         blog: {
           showReadingTime: true,
@@ -167,16 +192,19 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/Logo-Color-2x.png",
     colorMode: {
       respectPrefersColorScheme: true,
     },
     metadata: [{ name: "robots", content: "index, follow" }],
     navbar: {
-      title: "Third Loop",
+      title: "",
       logo: {
         alt: "Third Loop Logo",
-        src: "img/logo.svg",
+        src: "img/Logo-Color.svg",
+        srcDark: "img/Logo-White.svg",
+        href: "https://3rd-loop.com",
+        target: "_self",
       },
       items: [
         {
@@ -194,7 +222,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: "dark",
+      style: "light",
       links: [
         {
           title: "Docs",
@@ -210,7 +238,7 @@ const config: Config = {
           items: [
             {
               label: "LinkedIn",
-              href: "https://linkedin.com/thirdloop",
+              href: "https://www.linkedin.com/company/3rd-loop/about",
             },
             {
               label: "X",

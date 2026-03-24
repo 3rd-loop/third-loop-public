@@ -4,40 +4,28 @@ sidebar_position: 1
 
 # Getting Started
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+The Admin panel is where administrators manage users, configure organization settings, monitor usage, and set up authentication for your Third Loop environment.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+## Accessing the Admin Panel
 
-## Create your first React Page
+You must have the **admin** role to access the admin panel. If you do not have access and believe you should, contact your organization's administrator or reach out to support@3rd-loop.com.
 
-Create a file at `src/pages/my-react-page.js`:
+## Navigation
 
-```jsx title="src/pages/my-react-page.js"
-import React from "react";
-import Layout from "@theme/Layout";
+The admin sidebar contains four main sections:
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+- **Dashboard** — View usage analytics, token consumption charts, and detailed event logs.
+- **Manage Users** — Search, create, edit, pause, and delete user accounts.
+- **Service Limits** — Configure token and storage limits at the organization and user level.
+- **External Auth** — Set up and manage Single Sign-On (SSO) with your identity provider.
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+## Quick Start
 
-## Create your first Markdown Page
+Here are the most common admin tasks:
 
-Create a file at `src/pages/my-markdown-page.md`:
+1. **Add a new user** — Go to Manage Users and click Create. Enter their email, first name, and last name.
+2. **Set usage limits** — Go to Service Limits to configure how many tokens and how much storage your organization and individual users can consume.
+3. **Check usage** — The Dashboard shows token consumption trends and a detailed event log you can filter and sort.
+4. **Enable SSO** — Go to External Auth to configure SAML-based single sign-on with your identity provider.
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+For details on each area, see the dedicated pages in this section.

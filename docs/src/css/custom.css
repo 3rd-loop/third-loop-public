@@ -3,21 +3,22 @@
  * Imports brand styles, then maps them to Docusaurus Infima variables.
  */
 
+@import "./styles/brand.css";
 @import "./styles/fonts.css";
 @import "./styles/variables.css";
 @import "./styles/base.css";
 
 /* Map Third Loop brand colors to Docusaurus Infima variables */
 :root {
-  --ifm-color-primary: #e6a055;
-  --ifm-color-primary-dark: #e29440;
-  --ifm-color-primary-darker: #df8b35;
-  --ifm-color-primary-darkest: #cd7520;
-  --ifm-color-primary-light: #eaac6a;
-  --ifm-color-primary-lighter: #ecb375;
-  --ifm-color-primary-lightest: #f2c795;
-  --ifm-font-family-base: "Montserrat", sans-serif;
-  --ifm-heading-font-family: "Montserrat", sans-serif;
+  --ifm-color-primary: #5c4dff;
+  --ifm-color-primary-dark: #3a2fbb;
+  --ifm-color-primary-darker: #2d2490;
+  --ifm-color-primary-darkest: #1a1461;
+  --ifm-color-primary-light: #776bff;
+  --ifm-color-primary-lighter: #8f85ff;
+  --ifm-color-primary-lightest: #aba3ff;
+  --ifm-font-family-base: "Geist", sans-serif;
+  --ifm-heading-font-family: "Geist", sans-serif;
   --ifm-font-weight-normal: 400;
   --ifm-font-weight-semibold: 500;
   --ifm-font-weight-bold: 700;
@@ -28,13 +29,13 @@
 }
 
 [data-theme="dark"] {
-  --ifm-color-primary: #eaac6a;
-  --ifm-color-primary-dark: #e69d51;
-  --ifm-color-primary-darker: #e49544;
-  --ifm-color-primary-darkest: #d97e1f;
-  --ifm-color-primary-light: #eebb83;
-  --ifm-color-primary-lighter: #f0c290;
-  --ifm-color-primary-lightest: #f7dbb9;
+  --ifm-color-primary: #8f85ff;
+  --ifm-color-primary-dark: #776bff;
+  --ifm-color-primary-darker: #5c4dff;
+  --ifm-color-primary-darkest: #3a2fbb;
+  --ifm-color-primary-light: #aba3ff;
+  --ifm-color-primary-lighter: #c2bdff;
+  --ifm-color-primary-lightest: #d0ccff;
   --ifm-background-color: var(--background-white);
   --ifm-font-color-base: var(--text-black);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
