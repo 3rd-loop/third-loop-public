@@ -202,6 +202,8 @@ const config: Config = {
         alt: "Third Loop Logo",
         src: "img/Logo-Color.svg",
         srcDark: "img/Logo-White.svg",
+        href: "https://3rd-loop.com",
+        target: "_self",
       },
       items: [
         {
