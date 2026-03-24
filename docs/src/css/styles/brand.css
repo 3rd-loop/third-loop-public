@@ -21,6 +21,14 @@
   --brand-alpha-30: rgba(92, 77, 255, 0.3);
   --brand-alpha-50: rgba(92, 77, 255, 0.5);
 
+  /* based on --brand-300 */
+  --brand-beta-5: rgba(171, 163, 255, 0.05);
+  --brand-beta-10: rgba(171, 163, 255, 0.1);
+  --brand-beta-15: rgba(171, 163, 255, 0.15);
+  --brand-beta-20: rgba(171, 163, 255, 0.2);
+  --brand-beta-30: rgba(171, 163, 255, 0.3);
+  --brand-beta-50: rgba(171, 163, 255, 0.5);
+
   /* Gray scale - lightest to darkest */
   --gray-25: #f6f7f9;
   --gray-50: #e8e8f3;

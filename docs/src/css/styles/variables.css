@@ -149,6 +149,20 @@
   --speed-fast: 0.2s;
   --speed-faster: 0.1s;
 
+  /* Elevation */
+  --shadow-elevated:
+    0 2px 4px rgba(0, 0, 0, 0.04), 0 8px 16px rgba(0, 0, 0, 0.08);
+
+  /* Glass */
+  --glass-blur-sm: blur(8px);
+  --glass-blur-md: blur(16px);
+  --glass-blur-lg: blur(24px);
+  --glass-bg-light: rgba(246, 247, 249, 0.55);
+  --glass-bg-medium: rgba(246, 247, 249, 0.7);
+  --glass-bg-heavy: rgba(246, 247, 249, 0.85);
+  --glass-border: var(--brand-beta-50);
+  --glass-shadow: 0 4px 24px rgba(26, 26, 46, 0.08);
+
   /* Dropdown / elevated surface tokens */
   --z-index-dropdown: 99999;
   --dropdown-item-padding: 10px 12px;
@@ -158,10 +172,10 @@
   --primary-accent: var(--brand-400);
   --primary-accent-hover: var(--brand-300);
   --primary-accent-light: var(--brand-alpha-20);
-  --background-white: var(--gray-950);
-  --background-grey: var(--gray-700);
+  --background-white: var(--gray-700);
+  --background-grey: var(--gray-950);
   --border-grey: var(--gray-500);
-  --background-white-transparent: rgba(8, 8, 20, 0.7);
+  --background-white-transparent: rgba(26, 26, 46, 0.7);
   --text-white: var(--gray-800);
   --text-black: var(--gray-25);
   --text-grey: var(--gray-200);
@@ -178,4 +192,27 @@
   --relevancy-low-bg: rgba(226, 75, 75, 0.18);
   --relevancy-low-text: var(--error-300);
   --relevancy-low-border: var(--error-700);
+  --shadow-elevated:
+    0 1px 3px rgba(255, 255, 255, 0.08), 0 4px 12px rgba(255, 255, 255, 0.07);
+  --glass-bg-light: rgba(26, 26, 46, 0.45);
+  --glass-bg-medium: rgba(26, 26, 46, 0.6);
+  --glass-bg-heavy: rgba(26, 26, 46, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  --greyed-out-background: rgba(247, 247, 250, 0.15);
+}
+
+[data-theme="light"] {
+  --primary-accent: var(--brand-600);
+  --primary-accent-hover: var(--brand-700);
+  --primary-accent-light: var(--brand-alpha-15);
+  --background-white: var(--gray-25);
+  --background-grey: var(--gray-50);
+  --border-grey: var(--gray-200);
+  --background-white-transparent: rgba(246, 247, 249, 0.7);
+  --text-white: var(--gray-25);
+  --text-black: var(--gray-700);
+  --text-grey: var(--gray-400);
+  --shadow-black: rgba(26, 26, 46, 0.1);
+  --error-background: var(--error-100);
 }
