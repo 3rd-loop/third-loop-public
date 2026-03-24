@@ -58,4 +58,4 @@ From the Workflows page you can:
 - **Search** for workflows by name.
 - **Edit** an existing workflow to refine its steps.
 
-For workflow ideas, see [Workflow Ideas](/docs/clove/ideas/workflow-ideas).
+For workflow ideas, see [Workflow Ideas](/clove/ideas/workflow-ideas).
