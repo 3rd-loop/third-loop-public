@@ -69,6 +69,43 @@ Re-enabling a suspended key restores it to active status so it can authenticate 
 
 Deleting a key permanently removes it. This action cannot be undone. You will be asked to confirm before the key is deleted.
 
+## Using Your API Key with Claude Code
+
+You can use your Clove API key to connect [Claude Code](https://docs.anthropic.com/en/docs/claude-code) to your organization's Third Loop instance. This routes all Claude Code requests through Clove, so your organization's usage policies and audit logging apply.
+
+1. Create an API key in **Settings > API Keys** and copy the API Key ID and Secret Key.
+
+2. Open a terminal and set the following environment variables:
+
+```bash
+export ANTHROPIC_BASE_URL="https://your-tenant.thirdloop.ai"
+export ANTHROPIC_API_KEY="<api_key_id>;<api_secret_key>;"
+```
+
+Replace `your-tenant` with your organization's Third Loop subdomain, and fill in your actual key ID and secret key.
+
+3. Run Claude Code:
+
+```bash
+claude
+```
+
+That's it — Claude Code will now use your Clove instance.
+
+### Why Use Claude Code Through Clove?
+
+Running Claude Code through your organization's Third Loop instance instead of directly through Anthropic gives you several advantages:
+
+- **Privacy** — Your prompts and code stay within your organization's managed environment. Third Loop does not use your data for model training, so sensitive code and proprietary information remain private.
+- **Cost control** — Usage is tracked and managed through your organization's Third Loop account. Administrators can monitor token consumption across the team from a single dashboard rather than managing individual Anthropic API subscriptions.
+- **Access management** — API keys are scoped to your organization and can be disabled or deleted at any time. If someone leaves the team or a key is compromised, access can be revoked immediately without affecting other users.
+- **Audit logging** — All requests are logged through your Third Loop instance, giving your organization visibility into how AI tools are being used across the team.
+- **Consistency** — Everyone on your team connects through the same endpoint with the same policies, ensuring a uniform experience and making it easier to enforce usage guidelines.
+
+:::tip
+To make this persistent across terminal sessions, add the `export` lines to your shell profile (`~/.bashrc`, `~/.zshrc`, etc.).
+:::
+
 ## Best Practices
 
 - **Name keys descriptively** so you can identify their purpose later (e.g., "Production Backend", "Local Development").
