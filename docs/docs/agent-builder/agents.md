@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Agents
 
-Agents are the core of the Agent Builder. An agent combines a model, skills, and instructions into a single entity you can chat with and test.
+Agents are the core of the Agent Builder. An agent combines a model, tools, and instructions into a single entity you can chat with and test.
 
 ## Creating an Agent
 
@@ -12,7 +12,7 @@ Agents are the core of the Agent Builder. An agent combines a model, skills, and
 2. Click the **New** button and select **Agent**.
 3. Fill in a **name** and **description** for your agent. The name helps you identify it later, and the description explains what the agent is designed to do.
 4. Configure the model parameters (see below).
-5. Attach any **skills** and **instructions** you want the agent to use.
+5. Attach any **tools** and **instructions** you want the agent to use.
 6. Click **Create**.
 
 Your new agent will appear in the left sidebar where you can select it to edit or test at any time.
@@ -41,11 +41,11 @@ For more control, switch to Advanced mode to set parameters directly:
 
 You can toggle **Enhanced Reasoning** to switch the agent from the standard model (Haiku) to a more capable model (Sonnet). This is useful for agents that need to handle complex tasks, nuanced instructions, or detailed analysis.
 
-## Attaching Skills and Instructions
+## Attaching Tools and Instructions
 
-When creating or editing an agent, you can attach skills and instructions using the multi-select fields on the form. Skills define what the agent can do, and instructions define how it should behave.
+When creating or editing an agent, you can attach tools and instructions using the multi-select fields on the form. Tools define what the agent can do, and instructions define how it should behave.
 
-You can attach multiple skills and multiple instructions to a single agent. The same skill or instruction can be reused across different agents.
+You can attach multiple tools and multiple instructions to a single agent. The same tool or instruction can be reused across different agents.
 
 ## Managing Agents
 

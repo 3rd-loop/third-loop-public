@@ -16,11 +16,11 @@ The Agent Builder includes a built-in test section so you can try out your agent
 
 ## What Gets Tested
 
-When you test an agent, it uses the current configuration shown in the form — including the model, parameters, attached skills, and attached instructions. This means you can tweak settings and immediately see how they affect the agent's responses without saving first.
+When you test an agent, it uses the current configuration shown in the form — including the model, parameters, attached tools, and attached instructions. This means you can tweak settings and immediately see how they affect the agent's responses without saving first.
 
 ## Tips for Testing
 
 - **Start simple.** Try a basic question to make sure the agent responds correctly before testing edge cases.
-- **Test your trigger conditions.** If you have skills with trigger conditions, try prompts that should and shouldn't activate them.
+- **Test your trigger conditions.** If you have tools with trigger conditions, try prompts that should and shouldn't activate them.
 - **Compare parameter changes.** Try the same prompt with different temperature or verbosity settings to see how the output changes.
 - **Check instruction adherence.** Ask the agent something that should be governed by your instructions and verify it follows the guidelines.
