@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Instructions
 
-Instructions shape how your agent behaves. They set the rules, tone, and priorities that guide the agent's responses. Like skills, instructions are reusable across multiple agents.
+Instructions shape how your agent behaves. They set the rules, tone, and priorities that guide the agent's responses. Like tools, instructions are reusable across multiple agents.
 
 ## Creating an Instruction Set
 
