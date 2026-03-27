@@ -78,11 +78,12 @@ You can use your Clove API key to connect [Claude Code](https://docs.anthropic.c
 2. Open a terminal and set the following environment variables:
 
 ```bash
-export ANTHROPIC_BASE_URL="https://your-tenant.thirdloop.ai"
-export ANTHROPIC_API_KEY="<api_key_id>;<api_secret_key>;"
+export ANTHROPIC_BASE_URL="https://<api_domain>"
+export ANTHROPIC_API_KEY="<api_key_id>;<api_secret_key>"
 ```
 
-Replace `your-tenant` with your organization's Third Loop subdomain, and fill in your actual key ID and secret key.
+Replace `api_domain` with your organization's Third Loop API domain, and fill in your actual key ID and secret key.
+Your api domain is displayed in the `About` page in your user settings.
 
 3. Run Claude Code:
 
